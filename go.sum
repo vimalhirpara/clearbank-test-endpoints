@@ -1,2 +1,4 @@
+github.com/AartiChhasiya/generate-digital-signature v0.0.3 h1:9yJIy7uhjCfsDvPAypToqM0KQ29ch0B7DMagdP+dK90=
+github.com/AartiChhasiya/generate-digital-signature v0.0.3/go.mod h1:p6ilulFVSieP85Pq/80q/DdYFOXZQmNv2hUHVH09l4s=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=

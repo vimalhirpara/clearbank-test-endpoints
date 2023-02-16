@@ -23,7 +23,7 @@ func main() {
 
 	// Start Server
 	go func() {
-		log.Println("Starting Server")
+		log.Println("Starting Server on 3000 port.")
 		if err := srv.ListenAndServe(); err != nil {
 			log.Fatal(err)
 		}
@@ -41,7 +41,8 @@ func waitForShutdown(srv *http.Server) {
 	// create a deadline to wait for.
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancel()
-	log.Println("Shutting down")
+
+	log.Println("Shutting down.")
 	srv.Shutdown(ctx)
 
 	os.Exit(0)

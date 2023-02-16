@@ -1,7 +1,7 @@
 package main
 
 import (
-	"clearbanktestendpoints/pkg/handler"
+	"github.com/vimalhirpara/clearbank-test-endpoints/pkg/handler"
 
 	"github.com/gorilla/mux"
 )

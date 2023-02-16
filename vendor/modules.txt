@@ -1,0 +1,6 @@
+# github.com/AartiChhasiya/generate-digital-signature v0.0.3
+## explicit; go 1.19
+github.com/AartiChhasiya/generate-digital-signature/hsm
+# github.com/gorilla/mux v1.8.0
+## explicit; go 1.12
+github.com/gorilla/mux
